@@ -53,13 +53,13 @@ examples/example_sdl_opengl2/example_sdl_opengl2
 examples/example_sdl_opengl3/example_sdl_opengl3
 
 
-# Executables
-*.exe
-*.out
-*.app
-*.vcxproj
-*.filters
-
 #bins
 bin/
 bin-int/
+
+# Files
+Makefile 
+
+# Visual Studio files and folder
+*.sln
+*.vcxproj*
