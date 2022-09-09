@@ -10,6 +10,7 @@
 
 ## Getting Started & General Advices
 
+- Article: [How To Ask Good Questions](https://bit.ly/3nwRnx1).
 - Please browse the [Wiki](https://github.com/ocornut/imgui/wiki) to find code snippets, links and other resources (e.g. [Useful extensions](https://github.com/ocornut/imgui/wiki/Useful-Extensions)).
 - Please read [docs/FAQ.md](https://github.com/ocornut/imgui/blob/master/docs/FAQ.md).
 - Please read [docs/FONTS.md](https://github.com/ocornut/imgui/blob/master/docs/FONTS.md) if your question relates to fonts or text.
@@ -19,6 +20,7 @@
 - Please use the search function of GitHub to look for similar issues. You may [browse issues by Labels](https://github.com/ocornut/imgui/labels).
 - Please use a web search engine to look for similar issues.
 - If you get a crash or assert, use a debugger to locate the line triggering it and read the comments around.
+- Please don't be a [Help Vampire](https://slash7.com/2006/12/22/vampires/).
 
 ## Issues vs Discussions
 
@@ -35,12 +37,13 @@ If Dear ImGui is successfully showing in your app and you have used Dear ImGui b
 
 You may use the Issue Tracker to submit bug reports, feature requests or suggestions. You may ask for help or advice as well. But **PLEASE CAREFULLY READ THIS WALL OF TEXT. ISSUES IGNORING THOSE GUIDELINES MAY BE CLOSED. USERS IGNORING THOSE GUIDELINES MIGHT BE BLOCKED.**
 
-Please do your best to clarify your request.  The amount of incomplete or ambiguous requests due to people not following those guidelines is often overwhelming. Issues created without the requested information may be closed prematurely. Exceptionally entitled, impolite or lazy requests may lead to bans. 
+Please do your best to clarify your request.  The amount of incomplete or ambiguous requests due to people not following those guidelines is often overwhelming. Issues created without the requested information may be closed prematurely. Exceptionally entitled, impolite or lazy requests may lead to bans.
 
 **PLEASE UNDERSTAND THAT OPEN-SOURCE SOFTWARE LIVES OR DIES BY THE AMOUNT OF ENERGY MAINTAINERS CAN SPARE. WE HAVE LOTS OF STUFF TO DO. THIS IS AN ATTENTION ECONOMY AND MANY LAZY OR MINOR ISSUES ARE HOGGING OUR ATTENTION AND DRAINING ENERGY, TAKING US AWAY FROM MORE IMPORTANT WORK.**
 
 Steps:
 
+- Article: [How To Ask Good Questions](https://bit.ly/3nwRnx1).
 - **PLEASE DO FILL THE REQUESTED NEW ISSUE TEMPLATE.** Including dear imgui version number, branch name, platform/renderer back-ends (imgui_impl_XXX files), operating system.
 - **Try to be explicit with your Goals, your Expectations and what you have Tried**.  Be mindful of [The XY Problem](http://xyproblem.info/). What you have in mind or in your code is not obvious to other people. People frequently discuss problems and suggest incorrect solutions without first clarifying their goal. When requesting a new feature, please describe the usage context (how you intend to use it, why you need it, etc..). If you tried something and it failed, show us what you tried.
 - **Attach screenshots (or gif/video) to clarify the context**. They often convey useful information that are omitted by the description. You can drag pictures/files in the message edit box. Avoid using 3rd party image hosting services, prefer the long term longevity of GitHub attachments (you can drag pictures into your post). On Windows you can use [ScreenToGif](https://www.screentogif.com/) to easily capture .gif files.
@@ -55,7 +58,7 @@ Steps:
 - If you are involved in cheating schemes (e.g. DLL injection) for competitive online multi-player games, please don't try posting here. We won't answer and you will be blocked. It doesn't matter if your question relates to said project. We've had too many of you and need to project our time and sanity.
 - Due to frequent abuse of this service from aforementioned users, if your GitHub account is anonymous and was created five minutes ago please understand that your post will receive more scrutiny and incomplete questions will be harshly dismissed.
 
-If you have been using dear imgui for a while or have been using C/C++ for several years or have demonstrated good behavior here, it is ok to not fullfill every item to the letter. Those are guidelines and experienced users or members of the community will know which information are useful in a given context.
+If you have been using dear imgui for a while or have been using C/C++ for several years or have demonstrated good behavior here, it is ok to not fulfill every item to the letter. Those are guidelines and experienced users or members of the community will know which information is useful in a given context.
 
 ## How to open a Pull Request
 
@@ -64,7 +67,7 @@ If you have been using dear imgui for a while or have been using C/C++ for sever
 - **When adding a feature,** please describe the usage context (how you intend to use it, why you need it, etc.). Be mindful of [The XY Problem](http://xyproblem.info/). 
 - **When fixing a warning or compilation problem,** please post the compiler log and specify the compiler version and platform you are using.
 - **Attach screenshots (or gif/video) to clarify the context and demonstrate the feature at a glance.** You can drag pictures/files in the message edit box. Prefer the long term longevity of GitHub attachments over 3rd party hosting (you can drag pictures into your post).
-- **Make sure your code follows the coding style already used in the codebase:** 4 spaces identations (no tabs), `local_variable`, `FunctionName()`, `MemberName`, `// Text Comment`, `//CodeComment();`, C-style casts, etc.. We don't use modern C++ idioms and tend to use only a minimum of C++11 features. The applications under examples/ are generally less consistent because they sometimes try to mimic the coding style often adopted by a certain ecosystem (e.g. DirectX-related code tend to use the style of their sample). 
+- **Make sure your code follows the coding style already used in the codebase:** 4 spaces indentations (no tabs), `local_variable`, `FunctionName()`, `MemberName`, `// Text Comment`, `//CodeComment();`, C-style casts, etc.. We don't use modern C++ idioms and tend to use only a minimum of C++11 features. The applications under examples/ are generally less consistent because they sometimes try to mimic the coding style often adopted by a certain ecosystem (e.g. DirectX-related code tend to use the style of their sample). 
 - **Make sure you create a branch dedicated to the pull request**. In Git, 1 PR is associated to 1 branch. If you keep pushing to the same branch after you submitted the PR, your new commits will appear in the PR (we can still cherry-pick individual commits).
 
 Thank you for reading!
